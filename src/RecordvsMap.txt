@@ -1,0 +1,7 @@
+### Record vs. Map
+
+- **Use `Record` when**: You are working with objects that have a fixed shape for values and string keys. 
+It's ideal for typing object literals with known value types.
+- **Use `Map` when**: You need more flexibility with keys (not just strings or numbers),
+ or you need to maintain the insertion order of your keys. Maps also provide better performance for large sets of data,
+  especially when frequently adding and removing key-value pairs
